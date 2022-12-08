@@ -1,8 +1,11 @@
 public class Point {
 
+    //public
     int x;
     int y;
 
+
+    // finish making constructor
     Point() {
 
 
@@ -17,6 +20,7 @@ public class Point {
 
     }
 
+    // finish making constructor
     Point(Point a) {
 
 
@@ -49,7 +53,21 @@ public class Point {
         return s;
 
 
+
     }
+
+    Point translate(int t, int v) {
+
+        this.x =  x + t;
+        this.y = y + v;
+
+        Point s = new Point(x,y);
+
+        return s;
+    }
+
+    //ToString Method
+
 
 
 

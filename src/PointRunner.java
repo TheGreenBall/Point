@@ -15,7 +15,7 @@ public class PointRunner {
 		System.out.println(b);
 
 		Point c = new Point( b );
-		//c.translate(1, -1);
+		c.translate(1, -1);
 		System.out.println(c);
 	}
 }
